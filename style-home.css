@@ -1,0 +1,229 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+
+/*ヘッダー始まり*/
+.header {
+width: 100%;
+height: 64px;
+background: rgba(96,202,173,0.8);
+position:fixed;
+z-index: 10;
+}
+
+.header-left img {
+width: 48px;
+border-radius: 50%;
+margin-top: 8px;
+margin-left: 10%;
+float: left;
+}
+
+.header-left p {
+display: inline-block;
+color: #E9E9E9;
+margin-top: 8px;
+padding-left: 6px;
+float: left;
+font-weight: bold;
+}
+/*ヘッダー終わり*/
+
+/*メインコンテンツ始まり*/
+.main-contents {
+height: 0;
+padding-top: 55.625%;
+background-image: url("images/main-photo.jpg");
+background-size: cover;
+position: relative;
+}
+
+.main-contents h1 {
+color: white;
+width: 100%;
+font-size: 32px;
+text-align: center;
+position: absolute;
+top: 40%;
+}
+/*メインコンテンツ終わり*/
+
+/*Q and A 始まり*/
+.q-and-a {
+width: 100%;
+height: 560px;
+background-color: #9DA5A0;
+}
+
+.q-and-a h1 {
+width: 100%;
+height: 80px;
+margin: 0 auto;
+text-align: center;
+line-height: 80px;
+color: #e9e9e9;
+background-color: #9DA5A0;
+font-weight: normal;
+}
+
+.smh-space {
+width: 100%;
+height: 40px;
+display: none;
+}
+
+.questions-wrapper {
+width: 90%;
+height: 360px;
+margin: 0 auto;
+background-color: #e9e9e9;
+border-radius: 10px;
+}
+
+.question {
+float: left;
+width: 25%;
+height: 360px;
+text-align: center;
+}
+
+.question-back {
+width: 150px;
+height: 240px;
+margin: 0 auto;
+margin-top: 60px;
+border-radius: 10px;
+background-color: #333;
+transition: background-color 0.3s;
+transition: all 0.3s ease 0s;
+position: relative;
+}
+
+.question-back:hover {
+background-color: #e9e9e9;
+transform: scale(1.1, 1.1);
+cursor: pointer;
+}
+
+.question-back img {
+width: 150px;
+height: 240px;
+object-fit: cover;
+border-radius: 10px;
+opacity: 0.3;
+}
+
+.question-back p {
+color: #e9e9e9;
+font-size: 16px;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+color: #e9e9e9;
+white-space: nowrap;
+}
+/*QandA終わり*/
+
+/*モーダル始まり*/
+.modal-wrapper {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 100;
+background-color: rgba(51,51,51,0.6);
+display: none;
+}
+
+.modal-content {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-webkit-font-smoothing: none;
+-webkit-font-smoothing: antialiased;
+-webkit-font-smoothing: subpixel-antialiased;
+background-color: #9DA5A0;
+border-radius: 10px;
+width: 480px;
+height: 500px;
+}
+
+.close-modal {
+	float: right;
+	margin: 8px;
+	color: #e9e9e9;
+    cursor: pointer;
+	}
+
+
+.modal-content img {
+width: 400px;
+height: 240px;
+margin: 0 40px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.text-back {
+	width: 400px;
+	height: 160px;
+	background-color: #e9e9e9;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+
+.text-contents-wrapper {
+	margin: 12px;
+}
+
+.text-back h2, .text-back p {
+	color: #333;
+}
+/*モーダル終わり*/
+
+/*メッセージ始まり*/
+.message {
+width: 100%;
+height: 160px;
+background-color: #e9e9e9;
+text-align: center;
+line-height: 150px;
+display: none;
+}
+
+.message a {
+font-size: 32px;
+color: #e9e9e9;
+background-color: #60CAAD;
+text-decoration: none;
+padding: 16px 32px;
+border-radius: 10px;
+box-shadow: 0px 10px 4px #9DA5A0;
+}
+
+.message a:active {
+box-shadow: none;
+position: relative;
+top: 10px;
+}
+
+/*フッター始まり*/
+.footer {
+width: 100%;
+height: 64px;
+background-color: #60CAAD;
+line-height: 64px;
+}
+
+.footer p {
+color: #E9E9E9;
+display: block;
+margin-left: 50px;
+}
+/*フッター終わり*/

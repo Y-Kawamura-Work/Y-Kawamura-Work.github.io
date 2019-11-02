@@ -1,0 +1,78 @@
+/*スマホ用のレイアウト*/
+@media (max-width: 480px) {
+	.header {
+	position: static;
+	}
+	
+	.main-contents h1 {
+	font-size: 24px;
+	}
+	
+	.q-and-a {
+	height: 960px;
+	}
+	
+	.q-and-a h1 {
+	font-size: 24px;
+	}
+	
+	.smh-space {
+	display: block;
+	background-color: #e9e9e9;
+	}
+	
+	.questions-wrapper {
+	width: 100%;
+	height: 800px;
+	border-radius: 0px;
+	}
+	
+	.question {
+	float: none;
+	width: 100%;
+	height: 200px;
+	}
+	
+	.question-back {
+	height: 160px;
+	width: 80%;
+	margin-top: 0px;
+	}
+	
+	.question-back img {
+	height: 160px;
+	width: 100%;
+	}
+	
+}
+/*タブレット用のレイアウト*/
+@media (min-width: 481px) and (max-width: 1000px) {
+
+	.q-and-a {
+	height: 820px;
+	}
+	
+	.questions-wrapper {
+	height: 660px;
+	}
+	
+	.question {
+	width: 50%;
+	height: 330px;
+	}
+	
+	.one .question-back, .one .queation-back img, .two .question-back, .two .queation-back img {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	}
+	
+	.three .question-back, .three .queation-back img,.four .question-back, .four .queation-back img {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	}
+	
+	.question-back, .queation-back img {
+	height: 240px;
+	}
+	
+}
